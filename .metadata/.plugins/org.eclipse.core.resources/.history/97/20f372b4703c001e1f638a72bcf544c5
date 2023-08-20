@@ -1,0 +1,18 @@
+package pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+import com.github.dockerjava.api.model.Driver;
+
+import helper.Base;
+
+public class BasketPage extends Base{
+	public void addTocartPL() {
+		WebElement login = driver.findElement(By.cssSelector("button#add-to-cart-sauce-labs-backpack"));
+
+	
+	
+	
+	}
+}

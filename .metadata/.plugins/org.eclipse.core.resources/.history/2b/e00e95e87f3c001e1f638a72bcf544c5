@@ -1,0 +1,18 @@
+package pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+import helper.Base;
+
+public class CheckoutPage extends Base {
+public void interUserInformation() {
+	
+	WebElement firstname=driver.findElement(By.xpath("//input[@id=\"first-name\"]"));
+	firstname.sendKeys("");
+	WebElement lastname=driver.findElement(By.xpath("//input[@id=\"last-name\"]"));
+	lastname.sendKeys("");
+	WebElement postalcode=driver.findElement(By.xpath(""));
+	postalcode.sendKeys("//input[@id=\"postal-code\"]");
+}
+}
