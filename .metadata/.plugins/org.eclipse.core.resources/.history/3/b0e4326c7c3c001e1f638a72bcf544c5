@@ -1,8 +1,0 @@
-Feature: Validate checkout functionlity
-
-Scenario: validate checkout with valid details
-Given user launch site url
-Given user enter username and pasword
-And user click on login button
-And user add product into the basket from PLP page
-And user navigate to BasketPage

@@ -1,6 +1,0 @@
-Feature: Validate checkout functionlity
-
-Scenario: validate checkout with valid details
-Given user launch site url
-Given user enter username and pasword
-And user click on login button

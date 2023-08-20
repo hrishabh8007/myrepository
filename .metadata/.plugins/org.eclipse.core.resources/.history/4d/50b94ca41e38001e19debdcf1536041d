@@ -1,8 +1,0 @@
-package cucumber.Options;
-
-import io.cucumber.junit.CucumberOptions;
-
-@CucumberOptions(features="",glue="",tags="")
-public class TestRunner {
-
-}
